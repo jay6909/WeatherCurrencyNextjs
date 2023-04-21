@@ -3,7 +3,7 @@ import Link from "next/link";
 import styles from "../styles/Layout.module.css";
 import WeatherComp from "./WeatherComp";
 import CurrencyPage from "./CurrencyPage";
-import ToggleSwitch from "./Components/Toggleswitch";
+import ToggleSwitch from "./Components/ToggleSwitch";
 import { useState } from "react";
 
 const Layout = ({ children }) => {
