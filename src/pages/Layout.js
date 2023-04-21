@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import styles from "../styles/Layout.module.css";
 import WeatherComp from "./WeatherComp";
 import CurrencyPage from "./CurrencyPage";
@@ -45,7 +44,6 @@ const Layout = ({ children }) => {
               <h3 onClick={showSettings}>Settings Menu</h3>
             </li>
             <li>
-              <Link href="/currency">Currency</Link>
             </li>
           </ul>
         </nav>
