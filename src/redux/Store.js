@@ -3,7 +3,7 @@ import thunkMiddleware from 'redux-thunk';
 import { createWrapper } from 'next-redux-wrapper';
 import { getServerSideProps } from 'next-redux-wrapper';
 
-import currencyReducer from '../../new/currencySlice';
+import currencyReducer from '../new/currencySlice';
 import thunk from 'redux-thunk';
 
 
